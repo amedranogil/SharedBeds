@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SB_CommandSharedLabel>Shared bed</SB_CommandSharedLabel>
+  <SB_CommandSharedDesc>Make this a shared bed. Shared beds have no permanent owner: colonists without a bed of their own claim it when they go to sleep and release it when they wake up.\n\nLovers will join each other in shared beds with free slots.</SB_CommandSharedDesc>
+  <SB_SharedBed>Shared bed</SB_SharedBed>
+  <SB_SharedLabel>Shared</SB_SharedLabel>
+
+  <SB_Setting_PreferShared>Prefer shared beds over unowned normal beds</SB_Setting_PreferShared>
+  <SB_Setting_PreferSharedDesc>Colonists without a bed use a free shared bed before permanently claiming an unowned normal bed.</SB_Setting_PreferSharedDesc>
+  <SB_Setting_Debuff>"No personal space" mood effect: {0}</SB_Setting_Debuff>
+  <SB_Setting_DebuffDesc>Mood effect for one day after sleeping in a shared bed while having no bed of their own. 0 disables it.</SB_Setting_DebuffDesc>
+  <SB_Setting_AlertFactor>Colonists per shared sleeping slot (for the "need colonist beds" alert): {0}</SB_Setting_AlertFactor>
+</LanguageData>

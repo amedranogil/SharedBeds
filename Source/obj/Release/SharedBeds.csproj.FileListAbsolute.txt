@@ -1,0 +1,7 @@
+/home/mec/src/Shared Beds/1.6/Assemblies/SharedBeds.dll
+/home/mec/src/Shared Beds/Source/obj/Release/SharedBeds.csproj.AssemblyReference.cache
+/home/mec/src/Shared Beds/Source/obj/Release/SharedBeds.GeneratedMSBuildEditorConfig.editorconfig
+/home/mec/src/Shared Beds/Source/obj/Release/SharedBeds.AssemblyInfoInputs.cache
+/home/mec/src/Shared Beds/Source/obj/Release/SharedBeds.AssemblyInfo.cs
+/home/mec/src/Shared Beds/Source/obj/Release/SharedBeds.csproj.CoreCompileInputs.cache
+/home/mec/src/Shared Beds/Source/obj/Release/SharedBeds.dll
