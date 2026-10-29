@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SB_CommandSharedLabel>共享床铺</SB_CommandSharedLabel>
+  <SB_CommandSharedDesc>将此床设为共享床铺。共享床铺没有固定主人：没有自己床铺的殖民者去睡觉时占用它，醒来后释放。\n\n恋人会一起睡在有空位的共享床铺上。</SB_CommandSharedDesc>
+  <SB_SharedBed>共享床铺</SB_SharedBed>
+  <SB_SharedLabel>共享</SB_SharedLabel>
+  <SB_Setting_PreferShared>优先使用共享床铺而非无主的普通床</SB_Setting_PreferShared>
+  <SB_Setting_PreferSharedDesc>没有床的殖民者会先使用空闲的共享床铺，然后才会永久占用无主的普通床。</SB_Setting_PreferSharedDesc>
+  <SB_Setting_Debuff>“没有私人空间”心情效果：{0}</SB_Setting_Debuff>
+  <SB_Setting_DebuffDesc>在没有自己床铺的情况下睡在共享床铺后，持续一天的心情效果。0 为关闭。</SB_Setting_DebuffDesc>
+  <SB_Setting_AlertFactor>每个共享床位对应的殖民者数量（用于“需要床铺”警报）：{0}</SB_Setting_AlertFactor>
+</LanguageData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SB_CommandSharedLabel>Wspólne łóżko</SB_CommandSharedLabel>
+  <SB_CommandSharedDesc>Ustaw to łóżko jako wspólne. Wspólne łóżka nie mają stałego właściciela: koloniści bez własnego łóżka zajmują je, idąc spać, i zwalniają po przebudzeniu.\n\nZakochani dołączają do siebie we wspólnych łóżkach z wolnym miejscem.</SB_CommandSharedDesc>
+  <SB_SharedBed>Wspólne łóżko</SB_SharedBed>
+  <SB_SharedLabel>Wspólne</SB_SharedLabel>
+  <SB_Setting_PreferShared>Preferuj wspólne łóżka zamiast zwykłych łóżek bez właściciela</SB_Setting_PreferShared>
+  <SB_Setting_PreferSharedDesc>Koloniści bez łóżka korzystają z wolnego wspólnego łóżka, zanim na stałe zajmą zwykłe łóżko bez właściciela.</SB_Setting_PreferSharedDesc>
+  <SB_Setting_Debuff>Efekt nastroju „Brak przestrzeni osobistej”: {0}</SB_Setting_Debuff>
+  <SB_Setting_DebuffDesc>Efekt nastroju przez jeden dzień po spaniu we wspólnym łóżku bez własnego łóżka. 0 wyłącza.</SB_Setting_DebuffDesc>
+  <SB_Setting_AlertFactor>Kolonistów na jedno miejsce we wspólnym łóżku (dla alertu „potrzebne łóżka”): {0}</SB_Setting_AlertFactor>
+</LanguageData>

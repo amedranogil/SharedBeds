@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SB_CommandSharedLabel>Cama compartida</SB_CommandSharedLabel>
+  <SB_CommandSharedDesc>Convierte esta cama en compartida. Las camas compartidas no tienen dueño permanente: los colonos sin cama propia la reclaman al irse a dormir y la liberan al despertar.\n\nLas parejas se juntarán en camas compartidas con sitio libre.</SB_CommandSharedDesc>
+  <SB_SharedBed>Cama compartida</SB_SharedBed>
+  <SB_SharedLabel>Compartida</SB_SharedLabel>
+  <SB_Setting_PreferShared>Preferir camas compartidas a camas normales sin dueño</SB_Setting_PreferShared>
+  <SB_Setting_PreferSharedDesc>Los colonos sin cama usan una cama compartida libre antes de reclamar para siempre una cama normal sin dueño.</SB_Setting_PreferSharedDesc>
+  <SB_Setting_Debuff>Efecto de ánimo «Sin espacio personal»: {0}</SB_Setting_Debuff>
+  <SB_Setting_DebuffDesc>Efecto de ánimo durante un día tras dormir en una cama compartida sin tener cama propia. 0 lo desactiva.</SB_Setting_DebuffDesc>
+  <SB_Setting_AlertFactor>Colonos por plaza de cama compartida (para la alerta «se necesitan camas»): {0}</SB_Setting_AlertFactor>
+</LanguageData>

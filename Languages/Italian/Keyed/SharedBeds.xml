@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SB_CommandSharedLabel>Letto condiviso</SB_CommandSharedLabel>
+  <SB_CommandSharedDesc>Rende questo letto condiviso. I letti condivisi non hanno un proprietario fisso: i coloni senza un letto proprio lo occupano quando vanno a dormire e lo liberano al risveglio.\n\nGli innamorati si raggiungono nei letti condivisi con posti liberi.</SB_CommandSharedDesc>
+  <SB_SharedBed>Letto condiviso</SB_SharedBed>
+  <SB_SharedLabel>Condiviso</SB_SharedLabel>
+  <SB_Setting_PreferShared>Preferisci i letti condivisi ai letti normali senza proprietario</SB_Setting_PreferShared>
+  <SB_Setting_PreferSharedDesc>I coloni senza letto usano un letto condiviso libero prima di prendersi per sempre un letto normale senza proprietario.</SB_Setting_PreferSharedDesc>
+  <SB_Setting_Debuff>Effetto sull'umore "Nessuno spazio personale": {0}</SB_Setting_Debuff>
+  <SB_Setting_DebuffDesc>Effetto sull'umore per un giorno dopo aver dormito in un letto condiviso senza avere un letto proprio. 0 lo disattiva.</SB_Setting_DebuffDesc>
+  <SB_Setting_AlertFactor>Coloni per posto letto condiviso (per l'avviso "servono letti"): {0}</SB_Setting_AlertFactor>
+</LanguageData>

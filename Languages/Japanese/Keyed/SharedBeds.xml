@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SB_CommandSharedLabel>共有ベッド</SB_CommandSharedLabel>
+  <SB_CommandSharedDesc>このベッドを共有ベッドにします。共有ベッドには決まった所有者がいません。自分のベッドを持たない入植者が寝るときに使い、起きると解放します。\n\n恋人同士は空きのある共有ベッドで一緒に寝ます。</SB_CommandSharedDesc>
+  <SB_SharedBed>共有ベッド</SB_SharedBed>
+  <SB_SharedLabel>共有</SB_SharedLabel>
+  <SB_Setting_PreferShared>所有者のいない通常のベッドより共有ベッドを優先する</SB_Setting_PreferShared>
+  <SB_Setting_PreferSharedDesc>ベッドのない入植者は、所有者のいない通常のベッドを永久に確保する前に、空いている共有ベッドを使います。</SB_Setting_PreferSharedDesc>
+  <SB_Setting_Debuff>「プライベート空間がない」気分効果：{0}</SB_Setting_Debuff>
+  <SB_Setting_DebuffDesc>自分のベッドがない状態で共有ベッドで寝た後、1日続く気分効果。0で無効。</SB_Setting_DebuffDesc>
+  <SB_Setting_AlertFactor>共有ベッド1枠あたりの入植者数（「ベッドが必要」警告用）：{0}</SB_Setting_AlertFactor>
+</LanguageData>

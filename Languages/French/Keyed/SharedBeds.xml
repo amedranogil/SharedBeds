@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SB_CommandSharedLabel>Lit partagé</SB_CommandSharedLabel>
+  <SB_CommandSharedDesc>Faire de ce lit un lit partagé. Un lit partagé n'a pas de propriétaire permanent : les colons sans lit l'occupent en allant dormir et le libèrent à leur réveil.\n\nLes amoureux se rejoignent dans les lits partagés qui ont une place libre.</SB_CommandSharedDesc>
+  <SB_SharedBed>Lit partagé</SB_SharedBed>
+  <SB_SharedLabel>Partagé</SB_SharedLabel>
+  <SB_Setting_PreferShared>Préférer les lits partagés aux lits normaux sans propriétaire</SB_Setting_PreferShared>
+  <SB_Setting_PreferSharedDesc>Les colons sans lit utilisent un lit partagé libre avant de s'approprier définitivement un lit normal sans propriétaire.</SB_Setting_PreferSharedDesc>
+  <SB_Setting_Debuff>Effet d'humeur « Pas d'intimité » : {0}</SB_Setting_Debuff>
+  <SB_Setting_DebuffDesc>Effet d'humeur pendant un jour après avoir dormi dans un lit partagé sans avoir de lit à soi. 0 le désactive.</SB_Setting_DebuffDesc>
+  <SB_Setting_AlertFactor>Colons par place de lit partagé (pour l'alerte « lits nécessaires ») : {0}</SB_Setting_AlertFactor>
+</LanguageData>

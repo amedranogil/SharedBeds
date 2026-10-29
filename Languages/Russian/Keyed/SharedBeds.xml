@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SB_CommandSharedLabel>Общая кровать</SB_CommandSharedLabel>
+  <SB_CommandSharedDesc>Сделать кровать общей. У общей кровати нет постоянного владельца: колонисты без своей кровати занимают её, когда ложатся спать, и освобождают после пробуждения.\n\nВлюблённые ложатся вместе в общие кровати со свободным местом.</SB_CommandSharedDesc>
+  <SB_SharedBed>Общая кровать</SB_SharedBed>
+  <SB_SharedLabel>Общая</SB_SharedLabel>
+  <SB_Setting_PreferShared>Предпочитать общие кровати обычным кроватям без владельца</SB_Setting_PreferShared>
+  <SB_Setting_PreferSharedDesc>Колонисты без кровати используют свободную общую кровать, прежде чем навсегда занять обычную кровать без владельца.</SB_Setting_PreferSharedDesc>
+  <SB_Setting_Debuff>Эффект настроения «Нет личного пространства»: {0}</SB_Setting_Debuff>
+  <SB_Setting_DebuffDesc>Эффект настроения на один день после сна в общей кровати при отсутствии своей. 0 — отключить.</SB_Setting_DebuffDesc>
+  <SB_Setting_AlertFactor>Колонистов на одно место общей кровати (для оповещения «нужны кровати»): {0}</SB_Setting_AlertFactor>
+</LanguageData>

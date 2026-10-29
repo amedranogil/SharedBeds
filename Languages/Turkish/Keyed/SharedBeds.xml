@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SB_CommandSharedLabel>Ortak yatak</SB_CommandSharedLabel>
+  <SB_CommandSharedDesc>Bu yatağı ortak yatak yap. Ortak yatakların kalıcı sahibi yoktur: kendi yatağı olmayan sömürgeciler uyumaya giderken onu sahiplenir, uyanınca bırakır.\n\nSevgililer, boş yeri olan ortak yataklarda birbirlerine katılır.</SB_CommandSharedDesc>
+  <SB_SharedBed>Ortak yatak</SB_SharedBed>
+  <SB_SharedLabel>Ortak</SB_SharedLabel>
+  <SB_Setting_PreferShared>Sahipsiz normal yataklar yerine ortak yatakları tercih et</SB_Setting_PreferShared>
+  <SB_Setting_PreferSharedDesc>Yatağı olmayan sömürgeciler, sahipsiz bir normal yatağı kalıcı olarak sahiplenmeden önce boş bir ortak yatak kullanır.</SB_Setting_PreferSharedDesc>
+  <SB_Setting_Debuff>"Kişisel alan yok" ruh hali etkisi: {0}</SB_Setting_Debuff>
+  <SB_Setting_DebuffDesc>Kendi yatağı yokken ortak yatakta uyuduktan sonra bir gün süren ruh hali etkisi. 0 kapatır.</SB_Setting_DebuffDesc>
+  <SB_Setting_AlertFactor>Ortak yatak yeri başına sömürgeci ("yatak gerekli" uyarısı için): {0}</SB_Setting_AlertFactor>
+</LanguageData>

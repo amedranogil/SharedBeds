@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SB_CommandSharedLabel>공용 침대</SB_CommandSharedLabel>
+  <SB_CommandSharedDesc>이 침대를 공용 침대로 만듭니다. 공용 침대는 고정된 주인이 없습니다. 자기 침대가 없는 정착민이 잠자리에 들 때 차지하고, 깨어나면 비워 줍니다.\n\n연인은 빈자리가 있는 공용 침대에서 함께 잡니다.</SB_CommandSharedDesc>
+  <SB_SharedBed>공용 침대</SB_SharedBed>
+  <SB_SharedLabel>공용</SB_SharedLabel>
+  <SB_Setting_PreferShared>주인 없는 일반 침대보다 공용 침대 우선</SB_Setting_PreferShared>
+  <SB_Setting_PreferSharedDesc>침대가 없는 정착민은 주인 없는 일반 침대를 영구히 차지하기 전에 빈 공용 침대를 사용합니다.</SB_Setting_PreferSharedDesc>
+  <SB_Setting_Debuff>"개인 공간 없음" 기분 효과: {0}</SB_Setting_Debuff>
+  <SB_Setting_DebuffDesc>자기 침대 없이 공용 침대에서 잔 뒤 하루 동안 지속되는 기분 효과입니다. 0이면 비활성화됩니다.</SB_Setting_DebuffDesc>
+  <SB_Setting_AlertFactor>공용 침대 자리당 정착민 수 ("침대 필요" 경고용): {0}</SB_Setting_AlertFactor>
+</LanguageData>

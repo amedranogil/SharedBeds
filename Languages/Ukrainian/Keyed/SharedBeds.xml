@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SB_CommandSharedLabel>Спільне ліжко</SB_CommandSharedLabel>
+  <SB_CommandSharedDesc>Зробити ліжко спільним. Спільне ліжко не має постійного власника: колоністи без власного ліжка займають його, коли лягають спати, і звільняють після пробудження.\n\nЗакохані лягають разом у спільні ліжка з вільним місцем.</SB_CommandSharedDesc>
+  <SB_SharedBed>Спільне ліжко</SB_SharedBed>
+  <SB_SharedLabel>Спільне</SB_SharedLabel>
+  <SB_Setting_PreferShared>Віддавати перевагу спільним ліжкам перед звичайними ліжками без власника</SB_Setting_PreferShared>
+  <SB_Setting_PreferSharedDesc>Колоністи без ліжка користуються вільним спільним ліжком, перш ніж назавжди зайняти звичайне ліжко без власника.</SB_Setting_PreferSharedDesc>
+  <SB_Setting_Debuff>Ефект настрою «Немає особистого простору»: {0}</SB_Setting_Debuff>
+  <SB_Setting_DebuffDesc>Ефект настрою на один день після сну в спільному ліжку за відсутності власного. 0 — вимкнути.</SB_Setting_DebuffDesc>
+  <SB_Setting_AlertFactor>Колоністів на одне місце спільного ліжка (для сповіщення «потрібні ліжка»): {0}</SB_Setting_AlertFactor>
+</LanguageData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SB_CommandSharedLabel>Gemeinsames Bett</SB_CommandSharedLabel>
+  <SB_CommandSharedDesc>Macht dieses Bett zu einem gemeinsamen Bett. Gemeinsame Betten haben keinen festen Besitzer: Kolonisten ohne eigenes Bett beanspruchen es beim Schlafengehen und geben es beim Aufwachen wieder frei.\n\nPartner legen sich zueinander in gemeinsame Betten mit freiem Platz.</SB_CommandSharedDesc>
+  <SB_SharedBed>Gemeinsames Bett</SB_SharedBed>
+  <SB_SharedLabel>Gemeinsam</SB_SharedLabel>
+  <SB_Setting_PreferShared>Gemeinsame Betten gegenüber unbesetzten normalen Betten bevorzugen</SB_Setting_PreferShared>
+  <SB_Setting_PreferSharedDesc>Kolonisten ohne Bett nutzen ein freies gemeinsames Bett, bevor sie ein unbesetztes normales Bett dauerhaft beanspruchen.</SB_Setting_PreferSharedDesc>
+  <SB_Setting_Debuff>Stimmungseffekt „Keine Privatsphäre“: {0}</SB_Setting_Debuff>
+  <SB_Setting_DebuffDesc>Stimmungseffekt für einen Tag nach dem Schlafen in einem gemeinsamen Bett ohne eigenes Bett. 0 deaktiviert ihn.</SB_Setting_DebuffDesc>
+  <SB_Setting_AlertFactor>Kolonisten pro Schlafplatz in gemeinsamen Betten (für die Warnung „Betten benötigt“): {0}</SB_Setting_AlertFactor>
+</LanguageData>
