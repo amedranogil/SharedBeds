@@ -11,12 +11,12 @@ namespace SharedBeds
         public CompProperties_SharedBed() => compClass = typeof(CompSharedBed);
     }
 
+    [StaticConstructorOnStartup]
     public class CompSharedBed : ThingComp
     {
         public static readonly Color SheetColorShared = new Color(0.86f, 0.45f, 0.70f);
 
-        private static Texture2D iconTex;
-        private static Texture2D IconTex => iconTex ??= ContentFinder<Texture2D>.Get("UI/Commands/SB_SharedBed");
+        private static readonly Texture2D IconTex = ContentFinder<Texture2D>.Get("UI/Commands/SB_SharedBed");
 
         private const int MaxRecentUsers = 8;
 
