@@ -53,6 +53,51 @@ namespace SharedBeds
             }
         }
 
+        private static readonly List<Pawn> tmpOccupants = new List<Pawn>();
+
+        /// <summary>
+        /// Slot of an owner of a shared bed: the one it is lying in, otherwise the n-th free slot
+        /// for the n-th owner not lying down yet. Stays the same while others come and go.
+        /// </summary>
+        public static int StableSleepingSlot(Building_Bed bed, Pawn pawn, int ownerIndex)
+        {
+            // GetCurOccupant only looks at positions, so this never calls back into IsOwner.
+            int slots = bed.SleepingSlotsCount;
+            tmpOccupants.Clear();
+            for (int i = 0; i < slots; i++)
+            {
+                Pawn occupant = bed.GetCurOccupant(i);
+                if (occupant == pawn)
+                {
+                    tmpOccupants.Clear();
+                    return i;
+                }
+                tmpOccupants.Add(occupant);
+            }
+
+            List<Pawn> owners = bed.OwnersForReading;
+            int rank = 0;
+            for (int i = 0; i < ownerIndex && i < owners.Count; i++)
+            {
+                if (!tmpOccupants.Contains(owners[i]))
+                    rank++;
+            }
+            int result = ownerIndex;
+            for (int i = 0; i < slots; i++)
+            {
+                if (tmpOccupants[i] != null)
+                    continue;
+                if (rank == 0)
+                {
+                    result = i;
+                    break;
+                }
+                rank--;
+            }
+            tmpOccupants.Clear();
+            return result;
+        }
+
         /// <summary>True while the pawn is lying in, or on its way to lie in, this bed.</summary>
         public static bool IsUsing(Pawn pawn, Building_Bed bed)
         {

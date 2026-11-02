@@ -17,6 +17,22 @@ namespace SharedBeds.Patches
         }
     }
 
+    /// <summary>
+    /// Vanilla ties sleeping slots to the owner list index, which shifts every time someone claims or
+    /// releases a shared bed (owners are also sorted by id). A pawn already lying down would then be in
+    /// the "wrong" slot and get kicked out by the bed-usable check, so it never sleeps through.
+    /// </summary>
+    [HarmonyPatch(typeof(Building_Bed), nameof(Building_Bed.IsOwner), new[] { typeof(Pawn), typeof(int?) },
+        new[] { ArgumentType.Normal, ArgumentType.Out })]
+    public static class Building_Bed_IsOwner
+    {
+        public static void Postfix(Building_Bed __instance, Pawn p, ref int? assignedSleepingSlot)
+        {
+            if (assignedSleepingSlot.HasValue && __instance.SleepingSlotsCount > 1 && __instance.IsShared())
+                assignedSleepingSlot = SharedBedUtility.StableSleepingSlot(__instance, p, assignedSleepingSlot.Value);
+        }
+    }
+
     /// <summary>Medical / prisoner / slave modes replace shared mode.</summary>
     [HarmonyPatch(typeof(Building_Bed), nameof(Building_Bed.Medical), MethodType.Setter)]
     public static class Building_Bed_Medical

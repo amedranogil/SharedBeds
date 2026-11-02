@@ -5,6 +5,7 @@
     <LangVersion>latest</LangVersion>
     <AssemblyName>SharedBeds</AssemblyName>
     <RootNamespace>SharedBeds</RootNamespace>
+    <Version>1.0.1</Version>
     <OutputPath>../1.6/Assemblies/</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
